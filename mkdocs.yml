@@ -42,8 +42,7 @@ extra_javascript:
 
 nav:
   - "首页": index.md
-#   - "I. Limits & Continuity":
-#     - "Unit 01 - Limits & Continuity": unit01/limits.md
+  - "四边形": quad.md
 #   - "II. Differential Calculus":
 #     - "Unit 02 - Basic Differentiation": unit02/deriv_basic.md
 #     - "Unit 03 - Advanced Differentiation": unit03/deriv_advanced.md
