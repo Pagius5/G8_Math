@@ -1,0 +1,60 @@
+site_name: 2026 Spring G8 12S+ Math
+
+theme:
+  name: material
+  icon:
+    logo: material/function
+  favicon: assets/images/favicon.svg
+  palette:
+    # 浅色模式
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white         
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # 深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - abbr
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.id/features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# nav:
+#   - "Home": index.md
+#   - "I. Limits & Continuity":
+#     - "Unit 01 - Limits & Continuity": unit01/limits.md
+#   - "II. Differential Calculus":
+#     - "Unit 02 - Basic Differentiation": unit02/deriv_basic.md
+#     - "Unit 03 - Advanced Differentiation": unit03/deriv_advanced.md
+#     - "Unit 04 - Contextual Applications": unit04/apps_context.md
+#     - "Unit 05 - Analytical Applications": unit05/apps_analytic.md
+#   - "III. Integral Calculus":
+#     - "Unit 06 - Integration": unit06/integration.md
+#     - "Unit 07 - Differential Equations": unit07/diff_eq.md
+#     - "Unit 08 - Applications of Integration": unit08/apps_int.md
+#   - "IV. Miscellaneous (BC only)":
+#     - "Unit 09 - Parametric & Polar": unit09/parametric_polar.md
+#     - "Unit 10 - Infinite Series": unit10/series.md
+
+ 
