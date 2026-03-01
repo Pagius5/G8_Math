@@ -1,4 +1,4 @@
-# Welcome to 2026 Spring G8 12S+ Math
+# 欢迎来到 可爱奶龙数学培训
 
 <!-- For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
@@ -16,10 +16,19 @@
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files. -->
 
+嘟嘟嘟
 
-这里是一个 p5.js 的演示：
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe 
+    src="//player.bilibili.com/player.html?isOutside=true&aid=113960296647644&bvid=BV1RCNxeTEmL&cid=28254733095&p=1" 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+    title="3Blue1Brown - Essence of Calculus Playlist" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
+</div>
 
-<div id="polysketch" style="width: 100%; height: 500px; background: #000; position: relative; overflow: hidden; border-radius: 8px;"></div>
+<!-- <div id="polysketch" style="width: 100%; height: 500px; background: #000; position: relative; overflow: hidden; border-radius: 8px;"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"></script>
 
@@ -162,4 +171,4 @@ new p5((p) => {
     }
   }
 }, 'polysketch');
-</script>
+</script> -->
