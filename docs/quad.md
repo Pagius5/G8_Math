@@ -2,52 +2,60 @@
 
 ## 多边形
 
-### 多边形
+在同一平面内，由不在同一直线上的三条或三条以上的线段首尾顺次连接所组成的封闭图形，叫作**多边形**。
 
-在几何学中，四边形是指有四条边和四个顶点的多边形，其内角和为 360 度。四边形有很多种，其中对称性最高的是正方形，其次是长方形或菱形，较低对称性的四边形如等腰梯形和筝形，对称轴只有一条。其他的四边形依照其类角的性质可以分成凸四边形和非凸四边形，其中凸四边形代表所有内角角度皆小于 180 度。非凸四边形可以再进一步分成凹四边形和复杂四边形，其中复杂四边形表示边自我相交的四边形。（维基百科）
+### 多边形的名称
 
-| 数字 | 拉丁语基数词 (Cardinal) | 拉丁语序数词 (Ordinal) | 英语衍生词参考 |
-| :--- | :--- | :--- | :--- |
-| **1** | **Unus** | **Primus** | **Uni**cycle / **Prim**ary |
-| **2** | **Duo** | **Secundus** | **Du**et / **Second**ary |
-| **3** | **Tres** | **Tertius** | **Tri**o / **Terti**ary |
-| **4** | **Quattuor** | **Quartus** | **Quart**er / **Quart**et |
-| **5** | **Quinque** | **Quintus** | **Quin**tuplets / **Quint**essential |
-| **6** | **Sex** | **Sextus** | **Sex**tet / **Sext**ant |
-| **7** | **Septem** | **Septimus** | **Septem**ber / **Septim**al |
-| **8** | **Octo** | **Octavus** | **Octo**pus / **Octav**e |
-| **9** | **Novem** | **Nonus** | **Novem**ber / **Non**agon |
-| **10** | **Decem** | **Decimus** | **Decem**ber / **Decim**al |
-| **11** | **Undecim** | **Undecimus** | **Undecim**al |
-| **12** | **Duodecim** | **Duodecimus** | **Duodec**imal |
+| 边数 | 中文名 | 英文名 |
+| :--- | :--- | :--- |
+| 3 | 三角形 | Triangle |
+| 4 | 四边形 | Quadrilateral |
+| 5 | 五边形 | Pentagon |
+| 6 | 六边形 | Hexagon |
+| 7 | 七边形 | Heptagon |
+| 8 | 八边形 | Octagon |
+| 9 | 九边形 | Nonagon |
+| 10 | 十边形 | Decagon |
+| 11 | 十一边形 | Hendecagon |
+| 12 | 十二边形 | Dodecagon |
 
-| 数字 | 希腊语基数词 (Cardinal) | 希腊语序数词 (Ordinal) | 英语衍生词参考 |
-| :--- | :--- | :--- | :--- |
-| **1** | **Heis / Hen** | **Prōtos** | **Hen**agon / **Proto**type |
-| **2** | **Duo** | **Deuteros** | **Di**graph / **Deutero**nomy |
-| **3** | **Treis** | **Tritos** | **Tri**gon / **Trit**ium |
-| **4** | **Tettares** | **Tetartos** | **Tetra**pod / **Tetra**rch |
-| **5** | **Pente** | **Pemptos** | **Penta**gon / **Penta**meter |
-| **6** | **Hex** | **Hektos** | **Hexa**gon / **Hex**agram |
-| **7** | **Hepta** | **Hebdomos** | **Hepta**thlon / **Hebdom**adal |
-| **8** | **Oktō** | **Ogdoos** | **Octo**gon / **Ogdoa**d |
-| **9** | **Ennea** | **Enatos** | **Ennea**gon / **Ennea**d |
-| **10** | **Deka** | **Dekatos** | **Deca**gon / **Deca**logue |
-| **11** | **Hendeka** | **Hendekatos** | **Hendeca**gon |
-| **12** | **Dōdeka** | **Dōdekatos** | **Dodeca**hedron |
+??? info "拓展：拉丁语和希腊语中的数"
 
-| 边数 | Common Name | 常用名系统 | 正规希腊语多边形名 | 希腊语基数词原形 |
-| :--- | :--- | :--- | :--- | :--- |
-| **3** | **Triangle** | 拉丁语 | **Trigon** | **treis** |
-| **4** | **Quadrilateral** | 拉丁语 | **Tetragon** | **tettares** |
-| **5** | **Pentagon** | 希腊语 | **/** | **pente** |
-| **6** | **Hexagon** | 希腊语 | **/** | **hex** |
-| **7** | **Heptagon** | 希腊语 | **/** | **hepta** |
-| **8** | **Octagon** | 希腊语 | **/** | **okto** |
-| **9** | **Nonagon** | 混合 | ✨ **ENNEAGON** ✨ | **ennea** |
-| **10** | **Decagon** | 希腊语 | **/** | **deka** |
-| **11** | **Hendecagon** | 希腊语 | **/** | **hendeka** |
-| **12** | **Dodecagon** | 希腊语 | **/** | **dodeka** |
+    | 数 | 拉丁语基数词 (Cardinal) | 拉丁语序数词 (Ordinal) | 英语衍生词参考 |
+    | :--- | :--- | :--- | :--- |
+    | 1 | Unus | Primus | Unicycle / Primary |
+    | 2 | Duo | Secundus | Duet / Secondary |
+    | 3 | Tres | Tertius | Trio / Tertiary |
+    | 4 | Quattuor | Quartus | Quarter / Quartet |
+    | 5 | Quinque | Quintus | Quintuplets / Quintessential |
+    | 6 | Sex | Sextus | Sextet / Sextant |
+    | 7 | Septem | Septimus | September / Septimal |
+    | 8 | Octo | Octavus | Octopus / Octave |
+    | 9 | Novem | Nonus | November / Nonagon |
+    | 10 | Decem | Decimus | December / Decimal |
+    | 11 | Undecim | Undecimus | Undecimal |
+    | 12 | Duodecim | Duodecimus | Duodecimal |
+
+    | 数 | 希腊语基数词 (Cardinal) | 希腊语序数词 (Ordinal) | 英语衍生词参考 |
+    | :--- | :--- | :--- | :--- |
+    | 1 | Heis / Hen | Prōtos | Henagon / Prototype |
+    | 2 | Duo | Deuteros | Digraph / Deuteronomy |
+    | 3 | Treis | Tritos | Trigon / Tritium |
+    | 4 | Tettares | Tetartos | Tetrapod / Tetrarch |
+    | 5 | Pente | Pemptos | Pentagon / Pentameter |
+    | 6 | Hex | Hektos | Hexagon / Hexagram |
+    | 7 | Hepta | Hebdomos | Heptathlon / Hebdomadal |
+    | 8 | Oktō | Ogdoos | Octogon / Ogdoad |
+    | 9 | Ennea | Enatos | Enneagon / Ennead |
+    | 10 | Deka | Dekatos | Decagon / Decalogue |
+    | 11 | Hendeka | Hendekatos | Hendecagon |
+    | 12 | Dōdeka | Dōdekatos | Dodecahedron |
+
+### 凸多边形和凹多边形
+
+对于一个多边形，如果画出它的任意一边所在的直线时，其余各边都在这条直线的同一侧，那么这个多边形叫作**凸多边形**；否则叫作**凹多边形**。
+
+本章节中，我们只讨论凸多边形。
 
 ### 多边形内角和
 
