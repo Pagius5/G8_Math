@@ -3,6 +3,7 @@ site_name: 可爱奶龙数学培训
 theme:
   name: material
   logo: assets/images/nailoong.webp
+  favicon: assets/images/nailoong.webp
   palette:
     # 浅色模式
     - media: "(prefers-color-scheme: light)"
