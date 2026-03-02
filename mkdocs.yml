@@ -33,6 +33,9 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - abbr
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
 
 extra_javascript:
   - javascripts/mathjax.js
@@ -41,7 +44,8 @@ extra_javascript:
 
 nav:
   - "首页": index.md
-  - "四边形": quad.md
+  - "四边形":
+    - "多边形": quad/polygon/index.md
 #   - "II. Differential Calculus":
 #     - "Unit 02 - Basic Differentiation": unit02/deriv_basic.md
 #     - "Unit 03 - Advanced Differentiation": unit03/deriv_advanced.md
