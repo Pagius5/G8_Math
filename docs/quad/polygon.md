@@ -61,7 +61,7 @@
 
 ## 多边形内角和
 
-![示意图](/assets/images/quad/polygon/fig1.png){ align=right width=30% }
+![示意图](../assets/images/quad/polygon/fig1.png){ align=right width=30% }
 众所周知，三角形内角和是 $180^\circ$。把它推广到四边形，把四边形延对角线切割，得到两个三角形，因此四边形内角和是 $360^\circ$。
 
 如图，对于 $n$ 边形，钦定一个顶点，延以这个顶点为端点的 $n-3$ 条对角线切割多边形，得到 $n-2$ 个三角形，因此 $n$ 边形的内角和是：
@@ -93,9 +93,3 @@ $$
 
 ??? info "拓展：另一种证明方法"
     参见 [https://www.mathsisfun.com/geometry/exterior-angles-polygons.html](https://www.mathsisfun.com/geometry/exterior-angles-polygons.html)。
-
-<!-- ## 作业答案
-![alt text](../../assets/images/hw1-1.JPG)
-![alt text](../../assets/images/hw1-2.JPG)
-![alt text](../../assets/images/hw1-3.JPG)
-![alt text](/assets/images/hw1-1.JPG) -->
