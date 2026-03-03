@@ -72,14 +72,11 @@ plugins:
 
 
 nav:
-  - "首页 Homepage": index.md
-  - "四边形 Quadrilateral":
-    - "多边形 Polygon": quad/polygon.md
-    - "平行四边形 Parallelogram": quad/parallelogram.md
-    - "矩形 Rectangle": quad/rectangle.md
-    - "菱形 Rhombus": quad/rhombus.md
-    - "正方形 Square": quad/square.md
-  - "答案 Answer Keys": answer_key/intro.md
-
-
- 
+  - "首页": index.md
+  - "四边形":
+    - "多边形": quad/polygon.md
+    - "平行四边形": quad/parallelogram.md
+    - "矩形": quad/rectangle.md
+    - "菱形": quad/rhombus.md
+    - "正方形": quad/square.md
+  - "答案": ans/index.md

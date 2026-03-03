@@ -70,6 +70,10 @@ $$
 (n-2)180^\circ
 $$
 
+## 多边形的外角
+
+多边形内角的一边的延长线与另一边所组成的角叫做多边形的**外角**。
+
 ## 多边形外角和
 
 设内角为 $\angle 1, \angle 2, \dots, \angle n$，则外角为 $180^\circ - \angle 1, 180^\circ - \angle 2, \dots, 180^\circ - \angle n$，外角和为：
@@ -93,3 +97,7 @@ $$
 
 ??? info "拓展：另一种证明方法"
     参见 [https://www.mathsisfun.com/geometry/exterior-angles-polygons.html](https://www.mathsisfun.com/geometry/exterior-angles-polygons.html)。
+
+## 多边形的对角线数
+
+对于 $n$ 边形的每个顶点，以它为端点能作 $n-3$ 条对角线（去掉了它本身和相邻的两个顶点）。乘上顶点的总数 $n$，初步得到 $n(n-3)$ 条对角线。但我们发现此时每条对角线都被重复计算了两次，因此有 $\frac{n(n-3)}{2}$ 条对角线。
