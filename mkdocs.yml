@@ -42,21 +42,39 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.id/features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
+# plugins:
+#   - encryptcontent:
+#       global_password: "keainailong"
+#       title_prefix: ""
+
+plugins:
+   - search
+  #  - encryptcontent:
+  #     global_password: "keainailong"
+  #     title_prefix: ""
+   - glightbox:
+       touchNavigation: true
+       loop: false
+       effect: zoom
+       slide_effect: slide
+       width: 100%
+       height: auto
+       zoomable: true
+       draggable: true
+       skip_classes:
+         - custom-skip-class-name
+       auto_themed: false
+       auto_caption: false
+       caption_position: bottom
+       background: white
+       shadow: true
+       manual: false
+
+
 nav:
   - "首页": index.md
   - "四边形":
-    - "多边形": quad/polygon/index.md
-#   - "II. Differential Calculus":
-#     - "Unit 02 - Basic Differentiation": unit02/deriv_basic.md
-#     - "Unit 03 - Advanced Differentiation": unit03/deriv_advanced.md
-#     - "Unit 04 - Contextual Applications": unit04/apps_context.md
-#     - "Unit 05 - Analytical Applications": unit05/apps_analytic.md
-#   - "III. Integral Calculus":
-#     - "Unit 06 - Integration": unit06/integration.md
-#     - "Unit 07 - Differential Equations": unit07/diff_eq.md
-#     - "Unit 08 - Applications of Integration": unit08/apps_int.md
-#   - "IV. Miscellaneous (BC only)":
-#     - "Unit 09 - Parametric & Polar": unit09/parametric_polar.md
-#     - "Unit 10 - Infinite Series": unit10/series.md
+    - "多边形": quad/polygon.md
+
 
  

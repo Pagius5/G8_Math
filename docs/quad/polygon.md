@@ -2,9 +2,7 @@
 
 在同一平面内，由不在同一直线上的三条或三条以上的线段首尾顺次连接所组成的封闭图形，叫作**多边形**。
 
-## 知识点
-
-### 多边形的名称
+## 多边形的名称
 
 | 边数 | 中文名 | 英文名 |
 | :--- | :--- | :--- |
@@ -55,15 +53,15 @@
         | 11 | Hendeka | Hendekatos | Hendecagon |
         | 12 | Dōdeka | Dōdekatos | Dodecahedron |
 
-### 凸多边形和凹多边形
+## 凸多边形和凹多边形
 
 对于一个多边形，如果画出它的任意一边所在的直线时，其余各边都在这条直线的同一侧，那么这个多边形叫作**凸多边形**；否则叫作**凹多边形**。
 
 本章节中，我们只讨论凸多边形。
 
-### 多边形内角和
+## 多边形内角和
 
-![示意图](fig1.png){ align=right width=30% }
+![示意图](/assets/images/quad/polygon/fig1.png){ align=right width=30% }
 众所周知，三角形内角和是 $180^\circ$。把它推广到四边形，把四边形延对角线切割，得到两个三角形，因此四边形内角和是 $360^\circ$。
 
 如图，对于 $n$ 边形，钦定一个顶点，延以这个顶点为端点的 $n-3$ 条对角线切割多边形，得到 $n-2$ 个三角形，因此 $n$ 边形的内角和是：
@@ -72,13 +70,32 @@ $$
 (n-2)180^\circ
 $$
 
-### 多边形外角和
+## 多边形外角和
 
+设内角为 $\angle 1, \angle 2, \dots, \angle n$，则外角为 $180^\circ - \angle 1, 180^\circ - \angle 2, \dots, 180^\circ - \angle n$，外角和为：
 
+$$
+\begin{aligned}
+& \sum_{i=1}^n (180^\circ - \angle i) \\
+=\,& 180^\circ n - \sum_{i=1}^n \angle i
+\end{aligned}
+$$
 
+使用内角和公式：
 
-## 作业答案
+$$
+\begin{aligned}
+& 180^\circ n - 180^\circ (n-2) \\
+=\,& 2 \cdot 180^\circ \\
+=\,& 360^\circ
+\end{aligned}
+$$
+
+??? info "拓展：另一种证明方法"
+    参见 [https://www.mathsisfun.com/geometry/exterior-angles-polygons.html](https://www.mathsisfun.com/geometry/exterior-angles-polygons.html)。
+
+<!-- ## 作业答案
 ![alt text](../../assets/images/hw1-1.JPG)
 ![alt text](../../assets/images/hw1-2.JPG)
 ![alt text](../../assets/images/hw1-3.JPG)
-<!-- ![alt text](/assets/images/hw1-1.JPG) -->
+![alt text](/assets/images/hw1-1.JPG) -->
