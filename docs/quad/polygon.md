@@ -17,7 +17,7 @@
 | 11 | 十一边形 | Hendecagon |
 | 12 | 十二边形 | Dodecagon |
 
-??? info "拓展：拉丁语和希腊语中的数"
+??? tip "拓展：拉丁语和希腊语中的数"
 
     === "拉丁语"
 
@@ -95,7 +95,7 @@ $$
 \end{aligned}
 $$
 
-??? info "拓展：另一种证明方法"
+??? tip "拓展：另一种证明方法"
     参见 [https://www.mathsisfun.com/geometry/exterior-angles-polygons.html](https://www.mathsisfun.com/geometry/exterior-angles-polygons.html)。
 
 ## 多边形的对角线数
