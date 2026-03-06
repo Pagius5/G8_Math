@@ -23,3 +23,11 @@
 ![P2](../assets/images/ans/hw1/hw1-8.jpg)
 
 ![P3](../assets/images/ans/hw1/hw1-9.jpg)
+
+## 23.2 平行四边形(2)
+
+![P1](../assets/images/ans/hw1/hw1-10.jpg)
+
+![P2](../assets/images/ans/hw1/hw1-11.jpg)
+
+![P3](../assets/images/ans/hw1/hw1-12.jpg)
