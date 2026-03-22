@@ -43,10 +43,14 @@ gantt
 ## Homework Packet  
 ### 四边形  
 [HW1](hw1.md)  
-[HW2](hw2.md)
+[HW2](hw2.md)  
+[HW3](hw3.md)
+
 
 ## Weekly Practice  
-[WP1](wp1.md)
+[WP1](wp1.md)  
+[WP2](wp2.md)
 
 ## 午会练习  
-[Week2](w2.md)
+[Week2](w2.md)  
+[Week3](w3.md)

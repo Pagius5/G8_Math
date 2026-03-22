@@ -54,7 +54,31 @@
     $$
 
 ## 平行四边形的判定
+!!! theorem "定理：平行四边形的判定"
+    如果一个四边形 $ABCD$ 满足以下任一条件，那么它是平行四边形：
 
+    **1. 两组对边分别相等：**
+    $$
+    \begin{aligned}
+    \because & \ AB = CD, AD = BC \\\\
+    \therefore & \ \text{四边形 } ABCD \text{ 是平行四边形}
+    \end{aligned}
+    $$
 
+    **2. 一组对边平行且相等：**
+    $$
+    \begin{aligned}
+    \because & \ AB /\mkern-6mu/ CD, AB = CD \\\\
+    \therefore & \ \text{四边形 } ABCD \text{ 是平行四边形}
+    \end{aligned}
+    $$
+
+    **3. 对角线互相平分：**
+    $$
+    \begin{aligned}
+    \because & \ OA = OC, OB = OD \\\\
+    \therefore & \ \text{四边形 } ABCD \text{ 是平行四边形}
+    \end{aligned}
+    $$
 
 [^1]: 注意区分：平行四边形仅**互相平分**，菱形还有**互相垂直**，矩形还有**长度相等**。
