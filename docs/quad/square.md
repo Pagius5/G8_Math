@@ -17,3 +17,11 @@
      *   有一组邻边相等的矩形是正方形。
      *   有一个内角是直角的菱形是正方形。
 
+![Quadrilaterals](../assets/images/quad/quadrilateral-1.png)
+
+*图片来源: [Maths Is Fun](https://www.mathsisfun.com/quadrilaterals.html)*
+
+![Parallelograms](../assets/images/quad/quadrilateral-2.png)
+
+*图片来源: [Third Space Learning](https://thirdspacelearning.com/us/math-resources/topic-guides/geometry/parallelograms/)*
+

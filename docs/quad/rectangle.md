@@ -9,11 +9,19 @@
     \text{四个角都是直角} \iff \text{该四边形是矩形}
     $$
 
-    **2. 符号语言：**
+    **2. 从四个直角到矩形：**
     $$
     \begin{aligned}
     \because & \ \angle A = \angle B = \angle C = \angle D = 90^\circ \\\\
     \therefore & \ \text{四边形 } ABCD \text{ 是矩形}
+    \end{aligned}
+    $$
+
+    **3. 从矩形到四个直角：**
+    $$
+    \begin{aligned}
+    \because & \ \text{四边形 } ABCD \text{ 是矩形} \\\\
+    \therefore & \ \angle A = \angle B = \angle C = \angle D = 90^\circ \\\\
     \end{aligned}
     $$
 

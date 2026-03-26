@@ -9,11 +9,19 @@
     \text{四条边都相等} \iff \text{该四边形是菱形}
     $$
 
-    **2. 符号语言：**
+    **2. 从四边相等到菱形：**
     $$
     \begin{aligned}
     \because & \ AB = BC = CD = DA \\\\
     \therefore & \ \text{四边形 } ABCD \text{ 是菱形}
+    \end{aligned}
+    $$
+
+    **3. 从菱形到四边相等：**
+    $$
+    \begin{aligned}
+    \because & \ \text{四边形 } ABCD \text{ 是菱形} \\\\
+    \therefore & \ AB = BC = CD = DA \\\\
     \end{aligned}
     $$
 
