@@ -82,6 +82,7 @@ plugins:
 
 nav:
   - "首页": index.md
+  - "教学安排": schedule.md
   - "四边形":
     - "多边形": quad/polygon.md
     - "平行四边形": quad/parallelogram.md
