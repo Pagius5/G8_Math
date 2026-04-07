@@ -89,4 +89,10 @@ nav:
     - "矩形": quad/rectangle.md
     - "菱形": quad/rhombus.md
     - "正方形": quad/square.md
+    - "三角形重心": quad/triangle_centroid.md
+  - "代数方程":
+    - "整式方程&分式方程": algebraic_equation/polynomial_rational_equation.md
+    - "无理方程": algebraic_equation/irrational_equation.md
+    - "二元二次方程": algebraic_equation/quadratic_equation_in_two_variables.md
+    - "应用题": algebraic_equation/word_problem.md
   - "答案": ans/index.md
