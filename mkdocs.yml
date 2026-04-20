@@ -50,6 +50,10 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js
   - https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraphcore.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.8.0/math.js
 
 # plugins:
 #   - encryptcontent:
@@ -95,4 +99,7 @@ nav:
     - "无理方程": algebraic_equation/irrational_equation.md
     - "二元二次方程": algebraic_equation/quadratic_equation_in_two_variables.md
     - "应用题": algebraic_equation/word_problem.md
+  - "函数":
+    - "反比例函数": function/inverse_variation.md
+    - "指数函数": function/exponential_function.md
   - "答案": ans/index.md
