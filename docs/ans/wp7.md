@@ -1,14 +1,14 @@
 # WP7 答案
 
-![P1](../assets/images/ans/wp7/wp7-1.jpg)
+![P1](../assets/images/ans/wp7/wp7-1.webp)
 
-![P2](../assets/images/ans/wp7/wp7-2.jpg)
+![P2](../assets/images/ans/wp7/wp7-2.webp)
 
-![P3](../assets/images/ans/wp7/wp7-3.jpg)
+![P3](../assets/images/ans/wp7/wp7-3.webp)
 
-![P4](../assets/images/ans/wp7/wp7-4.jpg)
+![P4](../assets/images/ans/wp7/wp7-4.webp)
 
-![P5](../assets/images/ans/wp7/wp7-5.jpg)
+![P5](../assets/images/ans/wp7/wp7-5.webp)
 
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraph.css" />
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraphcore.js"></script>
