@@ -44,6 +44,7 @@ markdown_extensions:
 
 extra_css:
   - https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css
+  - https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraph.css
 
 extra_javascript:
   - javascripts/katex.js
@@ -100,6 +101,9 @@ nav:
     - "二元二次方程": algebraic_equation/quadratic_equation_in_two_variables.md
     - "应用题": algebraic_equation/word_problem.md
   - "函数":
+    - "一次函数": function/linear_function.md
+    - "二次函数": function/quadratic_function.md
     - "反比例函数": function/inverse_variation.md
+    - "有理函数": function/rational_function.md
     - "指数函数": function/exponential_function.md
   - "答案": ans/index.md

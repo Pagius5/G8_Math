@@ -21,7 +21,8 @@
 [WP1](wp1.md)  
 [WP2](wp2.md)  
 [WP3](wp3.md)  
-[WP4](wp4.md)
+[WP4](wp4.md)  
+[WP7](wp7.md)
 
 
 ## 午会练习  
