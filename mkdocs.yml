@@ -2,6 +2,9 @@ site_name: 可爱奶龙数学培训
 
 theme:
   name: material
+  font:
+    text: "Noto Sans SC"
+    code: "JetBrains Mono"
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -48,6 +51,7 @@ markdown_extensions:
 extra_css:
   - https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css
   - https://cdn.jsdelivr.net/npm/jsxgraph/distrib/jsxgraph.css
+  - stylesheets/extra.css
 
 extra_javascript:
   - javascripts/katex.js
@@ -90,30 +94,35 @@ plugins:
 
 nav:
   - "首页": index.md
-  - "教学安排": schedule.md
+  # - "教学安排": schedule.md
   - "Algebra":
+    - "intro": algebra/index.md
     - "数与式":
-      - "实数": number/real_number.md
+      - "实数": algebra/number/real_number.md
     - "方程与不等式":
-      - "整式方程&分式方程": equation/polynomial_rational_equation.md
-      - "无理方程": equation/irrational_equation.md
-      - "二元二次方程": equation/quadratic_equation_in_two_variables.md
-      - "应用题": equation/word_problem.md
+      - "整式方程": algebra/equation/polynomial_equation.md
+      - "分式方程": algebra/equation/rational_equation.md
+      - "无理方程": algebra/equation/irrational_equation.md
+      - "二元二次方程": algebra/equation/quadratic_equation_in_two_variables.md
+      - "应用题": algebra/equation/word_problem.md
     - "函数":
-      - "一次函数": function/linear_function.md
-      - "二次函数": function/quadratic_function.md
-      - "反比例函数": function/inverse_variation.md
-      - "有理函数": function/rational_function.md
-      - "指数函数": function/exponential_function.md
+      - "一次函数": algebra/function/linear_function.md
+      - "二次函数": algebra/function/quadratic_function.md
+      - "反比例函数": algebra/function/inverse_variation.md
+      - "有理函数": algebra/function/rational_function.md
+      - "指数函数": algebra/function/exponential_function.md
   - "Geometry":
+    - " intro": geometry/index.md
     - "三角形":
-      - "三角形重心": quad/triangle_centroid.md
+      - "直角三角形": geometry/triangle/right_triangle.md
+      - "三角形重心": geometry/triangle/triangle_centroid.md
     - "四边形":
-      - "多边形": quad/polygon.md
-      - "平行四边形": quad/parallelogram.md
-      - "矩形": quad/rectangle.md
-      - "菱形": quad/rhombus.md
-      - "正方形": quad/square.md
-  - "Statistics": 
-    - "概率": probability/probability.md
+      - "多边形": geometry/quad/polygon.md
+      - "平行四边形": geometry/quad/parallelogram.md
+      - "矩形": geometry/quad/rectangle.md
+      - "菱形": geometry/quad/rhombus.md
+      - "正方形": geometry/quad/square.md
+  - "Statistics":
+    - "intro": statistics/index.md 
+    - "排列组合": statistics/permutation_combination.md
   - "答案": ans/index.md

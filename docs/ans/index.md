@@ -1,6 +1,6 @@
 # 答案
 
-## Homework Packet  
+## HW Packet  
 ### 四边形  
 [HW1](hw1.md)  
 [HW2](hw2.md)  
@@ -17,7 +17,7 @@
 [3.24](3_24.md)  
 [3.25](3_25.md)  
 
-## Weekly Practice  
+## 周末卷  
 [WP1](wp1.md)  
 [WP2](wp2.md)  
 [WP3](wp3.md)  
