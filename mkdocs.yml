@@ -99,21 +99,34 @@ nav:
     - "intro": algebra/index.md
     - "数与式":
       - "实数": algebra/number/real_number.md
+      - "二次根式": algebra/number/radical_expression.md
     - "方程与不等式":
+      - "一元二次方程": algebra/equation/quadratic_equation.md
       - "整式方程": algebra/equation/polynomial_equation.md
       - "分式方程": algebra/equation/rational_equation.md
       - "无理方程": algebra/equation/irrational_equation.md
-      - "二元二次方程": algebra/equation/quadratic_equation_in_two_variables.md
-      - "应用题": algebra/equation/word_problem.md
+      - "方程组与不等式组": algebra/equation/system_of_equations_and_inequalities.md
+      - "二元二次方程和方程组": algebra/equation/quadratic_equation_in_two_variables.md
+      # - "应用题": algebra/equation/word_problem.md
     - "函数":
       - "一次函数": algebra/function/linear_function.md
       - "二次函数": algebra/function/quadratic_function.md
       - "反比例函数": algebra/function/inverse_variation.md
       - "有理函数": algebra/function/rational_function.md
+      - "平方根函数": algebra/function/square_root_function.md
       - "指数函数": algebra/function/exponential_function.md
   - "Geometry":
-    - " intro": geometry/index.md
+    - "intro": geometry/index.md
+    - "基础知识": 
+      - "命题和证明": geometry/basic/proof.md
+      - "逆命题和逆定理": geometry/basic/inverse_proof.md
+      - "垂直平分线": geometry/basic/perpendicular_bisector.md
+      - "角平分线": geometry/basic/angle_bisector.md
+      - "轨迹": geometry/basic/locus.md
     - "三角形":
+      - "三角形": geometry/triangle/triangle.md
+      - "全等三角形": geometry/triangle/congruent_triangle.md
+      - "等腰三角形": geometry/triangle/isosceles_triangle.md
       - "直角三角形": geometry/triangle/right_triangle.md
       - "三角形重心": geometry/triangle/triangle_centroid.md
     - "四边形":
@@ -125,4 +138,7 @@ nav:
   - "Statistics":
     - "intro": statistics/index.md 
     - "排列组合": statistics/permutation_combination.md
+    - "理论概率与实验概率": statistics/theoretical_experimental_probability.md
+    - "复合事件": statistics/composite_event.md
+  - "Misc": misc.md
   - "答案": ans/index.md
