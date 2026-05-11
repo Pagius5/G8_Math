@@ -1,0 +1,1 @@
+find . -type f -name "*.JPG" -exec sh -c 'ffmpeg -i "$1" -pix_fmt yuv420p -q:v 75 "${1%.*}.webp" && rm "$1"' _ {} \;

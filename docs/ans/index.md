@@ -17,6 +17,7 @@
 === "函数"
     <div class="task-grid">
       <a class="task-card" href="hw5">HW5</a>
+      <a class="task-card" href="hw6">HW6</a>
     </div>
 
 ## 周末卷
@@ -33,10 +34,12 @@
   <a class="task-card" href="3_17">3.17</a>
   <a class="task-card" href="3_24">3.24</a>
   <a class="task-card" href="3_25">3.25</a>
+  <a class="task-card" href="5_6">5.6</a>
 </div>
 
 ## 午会练习
 <div class="task-grid">
   <a class="task-card" href="w2">Week 2</a>
   <a class="task-card" href="w3">Week 3</a>
+  <a class="task-card" href="w10">Week 10</a>
 </div>
