@@ -2010,6 +2010,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        平行四边形翻折
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2345,6 +2356,77 @@
     }], {fontSize: 16, fontWeight: 'bold'});
 
 })();
+</script>
+
+<h2 id="_4">平行四边形翻折</h2>
+<div id="jxgbox-4" class="jxgbox" style="width:100%; max-width:600px; height:450px; margin: 20px auto; border: 2px solid #34495e; background-color: #fcfcfc; border-radius: 8px; touch-action: none;"></div>
+
+<script type="text/javascript">
+    // 1. 初始化画板
+    var board = JXG.JSXGraph.initBoard('jxgbox-4', {
+        boundingbox: [-3, 8, 12, -3], // 设置可视范围 [左, 上, 右, 下]
+        axis: false, // 隐藏坐标轴以便观察图形
+        showNavigation: true,
+        keepaspectratio: true
+    });
+
+    // 2. 创建滑动条 (参数调节)
+    // 参数：[[x, y], [滑块长,高], [最小值, 初始值, 最大值]]
+    var s_AB = board.create('slider', [[-2, 7], [3, 7], [2, 5, 10]], {name: 'AB 长度'});
+    var s_angleB = board.create('slider', [[-2, 6], [3, 6], [30, 70, 150]], {name: '&ang;B (度)'});
+
+    // 3. 定义固定的点 B, C 和中点 E
+    var B = board.create('point', [0, 0], {name: 'B', fixed: true, size: 3, color: 'blue'});
+    // 假设固定 BC 长度为 8
+    var C = board.create('point', [8, 0], {name: 'C', fixed: true, size: 3, color: 'blue'}); 
+    var E = board.create('midpoint', [B, C], {name: 'E', size: 3, color: 'blue'});
+
+    // 4. 动态计算点 A 和点 D
+    var A = board.create('point', [
+        function() { 
+            // 角度转弧度
+            var rad = s_angleB.Value() * Math.PI / 180;
+            return s_AB.Value() * Math.cos(rad); 
+        },
+        function() { 
+            var rad = s_angleB.Value() * Math.PI / 180;
+            return s_AB.Value() * Math.sin(rad); 
+        }
+    ], {name: 'A', size: 3, color: 'red'});
+
+    var D = board.create('point', [
+        function() { return A.X() + C.X() - B.X(); },
+        function() { return A.Y() + C.Y() - B.Y(); }
+    ], {name: 'D', size: 3, color: 'red'});
+
+    // 5. 实现翻折寻找点 F
+    // 创建折痕所在的直线 AE (隐藏不显示)
+    var lineAE = board.create('line', [A, E], {visible: false});
+    // 定义反射变换
+    var reflectTransform = board.create('transform', [lineAE], {type: 'reflect'});
+    // 点 F 是点 B 关于直线 AE 的反射点
+    var F = board.create('point', [B, reflectTransform], {name: 'F', size: 3, color: 'green'});
+
+    // 6. 寻找点 G (AF 延长线与 CD 的交点)
+    var lineAF = board.create('line', [A, F], {visible: false});
+    var lineCD = board.create('line', [C, D], {visible: false});
+    var G = board.create('intersection', [lineAF, lineCD, 0], {name: 'G', size: 3, color: 'purple'});
+
+    // 7. 绘制线段，美化图形 (参考你的配图)
+    // 虚线部分 (折叠前的原位置)
+    board.create('segment', [A, B], {dash: 2, strokeColor: 'gray'});
+    board.create('segment', [B, E], {dash: 2, strokeColor: 'gray'});
+
+    // 实线部分 (平行四边形轮廓及折叠后的图形)
+    board.create('segment', [A, D], {strokeColor: 'black'});
+    board.create('segment', [D, C], {strokeColor: 'black'});
+    board.create('segment', [C, E], {strokeColor: 'black'});
+    board.create('segment', [A, E], {strokeColor: 'black'});
+
+    // 连接 A, G (由于 A, F, G 共线，画 AG 即可穿过 F)
+    board.create('segment', [A, G], {strokeColor: 'black'});
+    board.create('segment', [E, F], {strokeColor: 'black'});
+
 </script>
 
 
